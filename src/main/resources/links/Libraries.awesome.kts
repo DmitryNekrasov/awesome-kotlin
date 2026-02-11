@@ -1347,6 +1347,11 @@ category("Libraries/Frameworks") {
   }
   subcategory("Misc") {
     link {
+      github = "Kotlin/kotlinx.collections.immutable"
+      desc = "Immutable persistent collections for Kotlin."
+      setTags("collections", "immutable", "multiplatform", "data-structures", "algorithms")
+    }
+    link {
       github = "RationalityFrontline/kevent"
       desc = "A powerful in-process event dispatcher based on Kotlin and Coroutines."
       setTags("eventbus", "event-dispatcher", "event-driven", "publish–subscribe", "android", "swing", "javafx", "coroutines", "functional-programming")
